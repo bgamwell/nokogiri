@@ -1,4 +1,4 @@
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20150929-68320-gvl2nk.rb extconf.rb --with-pg-config=/usr/local/bin/postgres
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20150929-96069-3vnde4.rb extconf.rb --with-pg-config=/usr/local/bin/postgres
 Using config values from /usr/local/bin/postgres
 FATAL:  --includedir requires a value
 FATAL:  --libdir requires a value
