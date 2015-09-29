@@ -1,0 +1,23 @@
+<h1><span>Gay <i class="fa fa-heart"></i></span> Events in San Francisco</h1>
+
+<!-- Renders all link text and URLs from GayCities San Francisco events page -->
+
+<% @events.each do |event| %>
+
+  <div>
+
+    <!-- return an array of images associated with each div -->
+    <% images = event.css('img').map {|image| image['src']} %>
+
+    <img src= " <%= images[0] %> " >
+
+    <!-- return an array of links -->
+    <% links = event.css('a').map {|link| link['href']} %>
+    <% link = links[0] %>
+
+    <p><a href=" <%= link %> " target="_blank"><%= event.css('.event_title').text %></a></p>
+    <p><%= event.css('.event_meta').text %></p>
+
+  </div>
+
+<% end %>
