@@ -4,7 +4,7 @@
 
 <% @events.each do |event| %>
 
-  <div>
+  <div class="event_container">
 
     <!-- return an array of images associated with each div -->
     <% images = event.css('img').map {|image| image['src']} %>
