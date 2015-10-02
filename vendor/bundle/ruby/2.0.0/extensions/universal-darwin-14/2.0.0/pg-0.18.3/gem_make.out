@@ -1,13 +1,5 @@
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20150929-99802-142zpe0.rb extconf.rb --with-pg-config=/usr/local/bin/postgres
-Using config values from /usr/local/bin/postgres
-"root" execution of the PostgreSQL server is not permitted.
-The server must be started under an unprivileged user ID to prevent
-possible system security compromise.  See the documentation for
-more information on how to properly start the server.
-"root" execution of the PostgreSQL server is not permitted.
-The server must be started under an unprivileged user ID to prevent
-possible system security compromise.  See the documentation for
-more information on how to properly start the server.
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20151001-13861-1fvj1ig.rb extconf.rb --with-pg-config=/usr/local/bin/pg_config
+Using config values from /usr/local/bin/pg_config
 checking for libpq-fe.h... yes
 checking for libpq/libpq-fs.h... yes
 checking for pg_config_manual.h... yes
